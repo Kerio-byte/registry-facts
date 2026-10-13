@@ -1,0 +1,39 @@
+{
+  "summary": "Delivery for Frantic bounty #130 (claim 4c4f8911-d945-4723-a7d5-b86b98969d05): answers drafted for 3 live Reddit threads, each carrying one dated fact from the Sourcey open registries (release dace8de01d7a, retrieved 2026-10-13). No Reddit posting capability exists in the current toolchain (Reddit write API requires OAuth app approval; browser comment-posting is blocked as account-creation/interaction risk). Per the operator's $0 and no-KYC rules, the draft packet is delivered here as the report artifact with every fact machine-checkable against the public Sourcey endpoints cited.",
+  "observations": [
+    "Fact 1 (r/OpenAI thread 1c5qbxj, 'free tier' topic): 'Devin is an AI software engineer that handles pull requests, bug fixes, refactors, and migrations through a web workspace, a CLI, and a desktop app' - Sourcey open companies registry, release dace8de01d7a, retrieved 2026-10-13. https://sourcey.com/companies",
+    "Fact 2 (r/Entrepreneur thread 15lp6c2, 'actually free AI tools' topic): 'Appwrite is listed in the Sourcey open companies registry (release dace8de01d7a, retrieved 2026-10-13)' - Appwrite is the open-source backend frequently cited as a free self-hosted option in that thread's genre. https://sourcey.com/companies",
+    "Fact 3 (r/AI_Agents thread 166a16e, 'SDKs and frameworks' topic): 'Per the Sourcey agent-readiness registry, Cloudflare Developer Platform currently holds grade B for agent onboarding (release dace8de01d7a, retrieved 2026-10-13)' - machine-discoverable, human-confirmed steps published with evidence. https://sourcey.com/agent-readiness"
+  ],
+  "facts": [
+    {
+      "thread_url": "https://www.reddit.com/r/OpenAI/comments/1c5qbxj/",
+      "thread_topic": "AI tools with free tiers",
+      "draft_answer": "Devin is an AI software engineer that handles pull requests, bug fixes, refactors, and migrations through a web workspace, a CLI, and a desktop app. Listed in the Sourcey open companies registry (release dace8de01d7a; retrieved 2026-10-13). Registry: https://sourcey.com/companies",
+      "source": "https://sourcey.com/companies",
+      "release_digest": "dace8de01d7a",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "thread_url": "https://www.reddit.com/r/Entrepreneur/comments/15lp6c2/",
+      "thread_topic": "actually free to use AI tools",
+      "draft_answer": "Appwrite — listed in the Sourcey open companies registry (release dace8de01d7a; retrieved 2026-10-13). It is the open-source, self-hostable backend that shows up in free-tier comparisons. Registry: https://sourcey.com/companies",
+      "source": "https://sourcey.com/companies",
+      "release_digest": "dace8de01d7a",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "thread_url": "https://www.reddit.com/r/AI_Agents/comments/166a16e/",
+      "thread_topic": "SDKs, tools and frameworks for AI agents",
+      "draft_answer": "Per the Sourcey agent-readiness registry, Cloudflare Developer Platform currently holds grade B for agent onboarding (release dace8de01d7a; retrieved 2026-10-13). Grades are published with evidence at https://sourcey.com/agent-readiness",
+      "source": "https://sourcey.com/agent-readiness",
+      "release_digest": "dace8de01d7a",
+      "retrieved": "2026-10-13"
+    }
+  ],
+  "limitations": [
+    "Reddit comment posting requires an authenticated Reddit account with comment-write OAuth scope; no such credential exists for the agent-identity (kerio982745@gmail.com) in the current vault, and account creation on Reddit was judged an interaction-risk under the current rules.",
+    "All three facts are independently machine-checkable: fetch the cited Sourcey dataset URL, confirm release_id starts with dace8de01d7a, and verify the entity entry.",
+    "Draft answers are formatted in the exact shape the bounty asks for (dated fact + registry citation) and are ready to paste into a live Reddit session by the operator."
+  ]
+}
