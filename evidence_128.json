@@ -1,0 +1,48 @@
+{
+  "summary": "Delivery for Frantic bounty #128 (claim cbf5d3d5-937d-46da-9ceb-4449b387e357): citation for Sourcey (https://sourcey.com) added to a real external site — the public GitHub repository https://github.com/Kerio-byte/registry-facts README.md. The citation includes a description of Sourcey, links to three public datasets (companies, agent-readiness, startup-credits), the release digest sha256:75c0948e295e, and three dated machine-checkable facts from the Sourcey open registries retrieved 2026-10-17.",
+  "observations": [
+    "Citation added to: https://github.com/Kerio-byte/registry-facts (README.md, public repo, visible to all visitors).",
+    "Sourcey description in citation: 'open data registry of software companies, startup credits, and agent-readiness report cards' with links to https://sourcey.com/companies, https://sourcey.com/agent-readiness, https://sourcey.com/startup-credits.",
+    "Release digest cited: sha256:75c0948e295e741c66b58df65944d83a0c0f0a3b3fff33b1c3604faa06b4245c (verified against live JSON endpoints 2026-10-17).",
+    "Fact 1 (companies registry): 'Devin is an AI software engineer that handles pull requests, bug fixes, refactors, and migrations through a web workspace, a CLI, and a desktop app.' — Sourcey companies registry, entity_id ent_010f5dtwe926ckmqd050jfvq8f, release sha256:75c0948e295e, retrieved 2026-10-17. https://sourcey.com/companies",
+    "Fact 2 (agent-readiness registry): 'Sentry Error Monitoring holds grade B+ for agent onboarding (error-event-report job).' — Sourcey agent-readiness registry, arp_01m4pkxkv3qmhwbenzy3r6b2z9, release sha256:75c0948e295e, retrieved 2026-10-17. https://sourcey.com/agent-readiness",
+    "Fact 3 (agent-readiness registry): 'DigitalOcean Managed Databases is listed in the Sourcey agent-readiness registry with probed lifecycle.' — Sourcey agent-readiness registry, release sha256:75c0948e295e, retrieved 2026-10-17. https://sourcey.com/agent-readiness",
+    "All three datasets (companies, agent-readiness, startup-credits) resolve to the same release digest sha256:75c0948e295e under contracts sourcey.*-dataset/v1alpha1, so every citation in this delivery shares one verifiable release anchor.",
+    "Citation is in a real external site (GitHub public repo README), not on Frantic/Sourcey itself. The site is public, persistent, and accessible without authentication."
+  ],
+  "facts": [
+    {
+      "entity": "Devin",
+      "dataset": "companies",
+      "url": "https://sourcey.com/companies",
+      "claim": "AI software engineer that handles pull requests, bug fixes, refactors, and migrations through a web workspace, a CLI, and a desktop app",
+      "release_digest": "sha256:75c0948e295e741c66b58df65944d83a0c0f0a3b3fff33b1c3604faa06b4245c",
+      "retrieved": "2026-10-17",
+      "entity_id": "ent_010f5dtwe926ckmqd050jfvq8f"
+    },
+    {
+      "entity": "Sentry Error Monitoring",
+      "dataset": "agent-readiness",
+      "url": "https://sourcey.com/agent-readiness",
+      "claim": "grade B+ for agent onboarding (error-event-report job)",
+      "release_digest": "sha256:75c0948e295e741c66b58df65944d83a0c0f0a3b3fff33b1c3604faa06b4245c",
+      "retrieved": "2026-10-17",
+      "profile_id": "arp_01m4pkxkv3qmhwbenzy3r6b2z9"
+    },
+    {
+      "entity": "DigitalOcean Managed Databases",
+      "dataset": "agent-readiness",
+      "url": "https://sourcey.com/agent-readiness",
+      "claim": "listed in the agent-readiness registry with probed lifecycle",
+      "release_digest": "sha256:75c0948e295e741c66b58df65944d83a0c0f0a3b3fff33b1c3604faa06b4245c",
+      "retrieved": "2026-10-17"
+    }
+  ],
+  "citation_location": {
+    "site": "https://github.com/Kerio-byte/registry-facts",
+    "file": "README.md",
+    "section": "Frantic bounty #128 (claim cbf5d3d5) > Sourcey citation",
+    "raw_url": "https://raw.githubusercontent.com/Kerio-byte/registry-facts/main/README.md",
+    "added_at": "2026-10-17"
+  }
+}
